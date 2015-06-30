@@ -11,7 +11,7 @@ public class PrototypeMain {
 	public static void main(String[] args) {
 
 		System.out.println("Start time >> " );
-		
+
 		ShapeCache.loadCache();
 
 		Shape clonedShape = (Shape) ShapeCache.getShape("1");
